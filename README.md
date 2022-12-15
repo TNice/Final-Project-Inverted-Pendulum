@@ -19,7 +19,7 @@ Using matlab I created 2 models of a PID controller balancing an inverted pendul
 4. modifiy desired parameters
 5. click green play button to run 
 
-## Models
+## Model Descriptions
 
 ![alt text](https://github.com/TNice/Final-Project-Inverted-Pendulum/blob/main/images/Inverted%20Pendulum%20Pic.png)
 
@@ -30,4 +30,26 @@ Using matlab I created 2 models of a PID controller balancing an inverted pendul
 * l - length of the rod
 * $\theta$ - angle of the rod
 * g - acceleration of gravity
-* a_cart - acceleration of the cart
+* $a_{cart}$ - acceleration of the cart
+
+### Dynamics
+$\theta = \theta_0 + d\theta$
+
+$d^2\theta = \frac{g\theta}{l} - \frac{Ma_{cart}}{ml}$
+
+### Better Model
+#### Notation
+* M - mass of the cart
+* $m_m$ - mass of the weight
+* $m_l$
+* l - length of the rod
+* $\theta$ - angle of the rod
+* g - acceleration of gravity
+* $a_{cart}$ - acceleration of the cart
+
+### Dynamics
+$\theta = \theta_0 + d\theta$
+
+$I = (m_m + \frac{m_l}{3})l^2$
+
+$d^2\theta = \frac{g\theta - Ma_{cart}}{lI} + \frac{m_l\theta g}{2lI}$
