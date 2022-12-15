@@ -5,6 +5,8 @@ Using matlab I created 2 models of a PID controller balancing an inverted pendul
 
 ## Models
 
+![alt text](https://github.com/TNice/Final-Project-Inverted-Pendulum/blob/main/images/Inverted%20Pendulum%20Pic.png)
+
 ### Simple Model
 #### Notation
 * M - mass of the cart
