@@ -1,5 +1,5 @@
 # Final Project Inverted Pendulum
- 
+Note: This was tested on a computer with Intel i9 processor, 64GB of RAM and Windows 10 operating system
 ## Description
 Using matlab I created 2 models of a PID controller balancing an inverted pendulum on a cart (image below). Both models extend the dynamics equations from a Cal Tech physics lab document by Kenneth G Libbrecht(http://pmaweb.caltech.edu/~phy003/handout_source/Inverted_Pendulum/InvertedPendulum.pdf) to having the pendulum on a cart opposed to a shaker table. The "simple model" has the assumption that the rod has 0 mass and the "better model" takes the mass of the rod into account.
 
